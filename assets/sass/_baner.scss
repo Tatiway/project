@@ -1,0 +1,39 @@
+.baner {
+  height: auto;
+  background-color: $lite-blue;
+  position: relative;
+  &__logo {
+    width: 430px;
+    height: 110px;
+    margin: 50px auto 20px;
+    display: block;
+  }
+  &__left {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+  }
+  &__right {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+  }
+  &__middle {
+    width: 48%;
+    margin: 35px auto 0;
+  }
+  &__icon {
+    height: 60px;
+    width: 60px;
+    margin: 15px auto;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #fff;
+    max-width: 420px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

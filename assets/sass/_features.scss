@@ -1,0 +1,49 @@
+.features {
+	background-color: $middle-blue;
+	position: relative;
+	padding-top: 150px;
+	min-height: 900px;
+	&__phone {
+		width: 1000px;
+		height: auto;
+		z-index: 300;
+		position: relative;
+		top: 150px;
+		left: -70px;
+	}
+	&__container {
+		position: absolute;
+		width: 700px;
+		text-align:right;
+		z-index: 300;
+		right:0;
+		top: 0;
+	}
+	&__title {
+		color: $white-color;
+		font-size: 65px ;
+    font-weight: 300;
+		line-height: 1.4;
+		padding-left: 110px;
+		text-align: left;
+	}
+	&__item{
+		width: 180px;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 25px;
+		margin-bottom: 40px;
+	}
+	&__img {
+		width: 100px;
+		height: 100px;
+	}
+	&__text {
+		color: $white-color;
+		font-size: 30px ;
+    font-weight: 300;
+		line-height: 1.4;
+		text-align: center;
+	}
+}

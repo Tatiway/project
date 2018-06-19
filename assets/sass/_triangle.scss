@@ -1,0 +1,15 @@
+.triangle {
+	height: 90px;
+	width: 100%;
+	position: absolute;
+	bottom: -89px;
+	background-size: cover;
+	background-position: bottom center;
+	z-index: 20;
+	&--lite-blue {
+		background-image: url(../../img/tr.svg);
+	}
+	&--middle-blue {
+		background-image: url(../../img/tr_mb.svg);
+	}
+}

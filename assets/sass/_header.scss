@@ -1,0 +1,55 @@
+.header {
+	background-color: $lite-blue;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+	height: 750px;
+	&__title {
+		color: $white-color;
+		font-size: 65px ;
+    font-weight: 300;
+		line-height: 1.4;
+		font-weight: 100;
+		text-align: center;
+		max-width: 600px;
+		padding-top: 60px;
+		padding-bottom: 25px;
+	}
+	&__logo-wrap{
+		max-width: 600px;
+		text-align: center;
+	}
+	&__logo-app {
+		height: 87px;
+		width: 256px;
+	}
+	&__video-container{
+		position:absolute;
+		top: 10%;
+		right: 10%;
+	}
+	&__video {
+		position:absolute;
+		width: 257px;
+		height: auto;
+		top: 73px;
+		right: 20px;
+		z-index: 50;
+	}
+	&__bg {
+		position:absolute;
+		top:0;
+		right:0;
+		z-index: 40;
+	}
+	&__bg-tail {
+		width: auto;
+		height: auto;
+		position: absolute;
+		top: 500px;
+		right: -165px ;
+		z-index: 30;
+	}
+}
+
+
